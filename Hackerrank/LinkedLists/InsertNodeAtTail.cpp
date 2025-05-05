@@ -56,10 +56,13 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
  *
  */
 SinglyLinkedListNode* insertNodeAtTail(SinglyLinkedListNode* head, int data) {
-    if(head){
-        insertNodeAtTail(head->next, data)
-    }else{
-        
+    
+    //recursively insert the node at the tail of the linked list
+    if (head == nullptr) {
+        return new SinglyLinkedListNode(data);
+    } else {
+        head->next = insertNodeAtTail(head->next, data);
+        return head;
     }
 
 }

@@ -77,7 +77,7 @@ class LRUCache : Cache{
         head = node;
     }
     void addToFront(Node* node){
-        node->next = head;
+        node->next = head;  
         node->prev = nullptr;
 
         if(head) head->prev = node;

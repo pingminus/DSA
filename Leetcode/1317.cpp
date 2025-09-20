@@ -5,7 +5,7 @@ public:
         for(int i = 0; i<n; i++){
             int b = n-i;
             if(!zeroInt(i) && !zeroInt(b)){
-                vec.push_back(i);
+                vec.push_back(i); 
                 vec.push_back(b);
                 return vec; 
             }

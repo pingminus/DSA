@@ -22,9 +22,11 @@ int countResponseTimeRegressions(vector<int> responseTimes) {
     for(int i = 1; i < responseTimes.size(); i++){
         if(responseTimes[i] > totalSum/i) counter++;
         totalSum += responseTimes[i];
+        
     }
     
     
+
     
     
     return counter;

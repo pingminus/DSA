@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "Leetcode.main",
+      "projectName": "DSA_f1ffa847"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

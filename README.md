@@ -1,0 +1,7 @@
+# Niklas
+
+![JS](https://img.shields.io/badge/Javascript-00000.svg?style=for-the-badge&logo=Javascript&logoColor=white)
+
+![WASM](https://img.shields.io/badge/WASM-6300FF.svg?style=for-the-badge&logo=Webassembly&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-033963.svg?style=for-the-badge&logo=CMake&logoColor=white)
+![Cpp](https://img.shields.io/badge/C++-033963.svg?style=for-the-badge&logo=Cplusplus&logoColor=white) ![JAVA](https://img.shields.io/badge/java-5CE65C.svg?style=for-the-badge&logo=java&logoColor=black) ![QT](https://img.shields.io/badge/QT-5CE65C.svg?style=for-the-badge&logo=QT&logoColor=black) ![Blender](https://img.shields.io/badge/Blender-ff5100.svg?style=for-the-badge&logo=Blender&logoColor=blue) [![Modrinth](https://img.shields.io/badge/Modrinth-36373a.svg?style=for-the-badge&logo=modrinth&logoColor=dark_green)](https://modrinth.com/user/pingplus) [![Discord](https://img.shields.io/badge/Discord-36373a.svg?style=for-the-badge&logo=Discord&logoColor=dark_green)](https://discord.com/users/pingplus) [![Leetcode](https://img.shields.io/badge/Leetcode-36373a.svg?style=for-the-badge&logo=Leetcode)](https://leetcode.com/niklasximuenchen) [![Hackerrank](https://img.shields.io/badge/Hackerrank-86FF6E.svg?style=for-the-badge&logo=Hackerrank)](https://www.hackerrank.com/profile/pingplus) [![X](https://img.shields.io/badge/Twitter-000000.svg?style=for-the-badge&logo=X)](https://X.com/pingminus)

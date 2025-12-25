@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 class Solution {
 public:
     vector<int> getNoZeroIntegers(int n) {
@@ -27,5 +28,11 @@ public:
         number /= 10;
     }
     return false;
+
+
+    
+    
+    
+
 }
 };

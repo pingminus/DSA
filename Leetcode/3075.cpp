@@ -12,6 +12,7 @@ public:
         for(int hap : happiness){
             cout << hap << endl; 
         }
+                    
         for(int i{}; i < k; i++){
             sum += happiness[i] - i;
         }

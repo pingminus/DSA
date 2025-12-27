@@ -20,11 +20,7 @@ public:
             }
         }
         if (!modMap[0].empty() && !modMap[1].empty() && !modMap[2].empty())
-        maxSum = max(maxSum, modMap[0][0] + modMap[1][0] + modMap[2][0]);
-
-
-
-        
+        maxSum = max(maxSum, modMap[0][0] + modMap[1][0] + modMap[2][0]);        
 
         return maxSum; 
 }

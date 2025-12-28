@@ -9,6 +9,8 @@ public:
         for(int n : nums){
             modMap[n%3].push_back(n);
         }
+        
+        
         sort(modMap[0].begin(),modMap[0].end(), greater<int>());
         sort(modMap[1].begin(),modMap[1].end(),greater<int>());
         sort(modMap[2].begin(),modMap[2].end(),greater<int>());
@@ -23,5 +25,6 @@ public:
         maxSum = max(maxSum, modMap[0][0] + modMap[1][0] + modMap[2][0]);        
 
         return maxSum; 
+
 }
 };

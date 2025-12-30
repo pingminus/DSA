@@ -5,12 +5,10 @@ using namespace std;
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        // Check rows and columns
         for(int i = 0; i < 9; ++i){
             unordered_set<char> rowSet;
             unordered_set<char> colSet;
             for(int j = 0; j < 9; ++j){
-                // Row check
                 char r = board[i][j];
                 if(r != '.') {
                     if(rowSet.find(r) != rowSet.end())
@@ -28,7 +26,6 @@ public:
             }
         }
 
-        // Check 3x3 sub-boxes
         for(int boxRow = 0; boxRow < 9; boxRow += 3){
             for(int boxCol = 0; boxCol < 9; boxCol += 3){
                 unordered_set<char> boxSet;

@@ -1,20 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+
+
+
+ struct ListNode {
+      int val;
+      ListNode *next;
+      ListNode() : val(0), next(nullptr) {}
+      ListNode(int x) : val(x), next(nullptr) {}
+     ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+ 
 class Solution {
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
-        ListNode* startingHEAD = head;
-        if(head->val == n) return head->next;
 
-        
-    }
-    void helper(ListNode* node, int n){
-        if(!node) return;
-        if(node->next == n){
-            ListNode* temp = node->next->next
-            Nod
-        }
-    }
     
 
 };

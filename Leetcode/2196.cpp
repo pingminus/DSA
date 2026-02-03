@@ -3,10 +3,7 @@
 #include <algorithm>
 #include <string>
 #include <map>
-
 using namespace std;
-
-
 class Solution {
 public:
     int countOperations(int n1, int n2) {

@@ -25,7 +25,7 @@ public:
         tasks[taskId].second = newPriority;
         int userId = tasks[taskId].first;
         pq.push({newPriority, taskId, userId});
-    }
+    } 
     
     void rmv(int taskId) {
         tasks.erase(taskId);
